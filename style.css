@@ -1305,9 +1305,7 @@
   @media (min-width: 1024px) {
     /*===== GERAL =======================================*/
   
-    #testimonials{
-      display: none;
-    }
+    
     body {
       overflow: auto;
     }
@@ -1675,9 +1673,15 @@
   
   @media (max-width: 500px) {
     /*===== GERAL ==================================*/
-    section.testimonials{
+    section#depoiments{
       display: none;
+      
     }
+
+    section#depoiments #testimonial{
+     
+    }
+   
     section h4 {
       font-size: 1.2rem;
     }
@@ -1794,6 +1798,10 @@
 
     #knowledge .card{
       color: black;
+    }
+
+    #knowledge button#botao-conhecimento{
+      display: none;
     }
   }
   
